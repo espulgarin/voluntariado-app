@@ -3,7 +3,7 @@
 // Fuente: https://gist.github.com/mdoelker/9269378
 
 // Strips BOM from all php files in the current dir and subdirs
-$files = stripUtf8BomFromFiles(".", "*.php");
+$files = stripUtf8BomFromFile(".", "*.php");
 
 /**
 * Remove BOM from a single file
